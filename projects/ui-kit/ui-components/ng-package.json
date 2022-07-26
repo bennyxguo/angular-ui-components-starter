@@ -1,0 +1,7 @@
+{
+  "$schema": "../../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../../dist/amp-digital-eno/aem-amp-ng-components",
+  "lib": {
+    "entryFile": "public-api.ts"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@ui-kit/ui-components",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@storybook/angular": "^6.5.9",
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "scripts": {
+    "link:amp-ui": "yalc add @amp-digital-eno/aem-amp-ui && yalc link @amp-digital-eno/aem-amp-ui && npm install",
+    "unlink:amp-ui": "yalc remove @amp-digital-eno/aem-amp-ui && npm install",
+    "link:amp-icons": "yalc add @amp-digital-eno/aem-amp-icons && yalc link @amp-digital-eno/aem-amp-icons && npm install",
+    "unlink:amp-icons": "yalc remove @amp-digital-eno/aem-amp-icons && npm install"
+  }
+}
